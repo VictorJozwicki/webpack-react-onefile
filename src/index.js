@@ -1,6 +1,7 @@
+import React from 'react'
 import ReactDOM from 'react-dom'
-import HelloWorld from './components/HelloWorld.js'
+import App from './App.js'
 
 ReactDOM.render(
-    <HelloWorld />, document.getElementById('hello-world')
+    <App />, document.getElementById('hello-world')
 )
